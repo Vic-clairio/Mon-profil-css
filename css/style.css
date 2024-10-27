@@ -42,3 +42,21 @@ footer {
             border-radius: 5px;
             cursor: pointer;
      }
+	 
+	 a:hover {  font-size:30px;
+              text-decoration: none}
+	 
+	 a#one:hover { color: green;
+           background: black; 
+           font-size:30px;
+		   text-decoration: none}
+		   
+	 a#two:hover { color: red;
+           background: black; 
+           font-size:30px;
+		   text-decoration: none}
+		   
+	 a#tree:hover { color: yellow;
+           background: black; 
+           font-size:30px;
+		   text-decoration: none}
