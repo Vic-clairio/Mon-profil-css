@@ -60,3 +60,15 @@ footer {
            background: black; 
            font-size:30px;
 		   text-decoration: none}
+
+  .background {
+            background-image: url('https://www.markcole.ca/wp-content/uploads/2024/04/Bible.jpeg'); /* Remplacez par votre image */
+            background-size: cover; /* Couvre l'ensemble de l'élément */
+            background-position: center; /* Centre l'image */
+            background-attachment: fixed; /* Fixe l'image en arrière-plan */
+            height: 100vh; /* Hauteur de la fenêtre */
+            color: white; /* Couleur du texte */
+            display: flex; /* Pour centrer le contenu */
+            justify-content: center; /* Centre horizontalement */
+            align-items: center; /* Centre verticalement */
+            text-align: center; /* Centre le texte */
