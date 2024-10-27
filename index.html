@@ -4,72 +4,15 @@
      <meta charset="utf-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <title> Page de PROFIL </title>
-	 
-	 <style>
-     body  {
-             background-image: url("image/maple.jpg");
-             background-repeat: no-repeat;
-             background-attachment: fixed;
-             background-position: left;
-	     background-size: cover; /* Image de fond agrandie */
-	     height: 100 vh; /* Assure que le corps prend toute la hauteur de la fenêtre */
-             margin: 0; /* Supprime les marges par défaut */
-			 
-			 
-			}
-	body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-}
-
-.profile img {
-    border-radius: 50%;
-    width: 150px;
-}
-
-.social-links ul {
-    list-style-type: none;
-    padding: 0;
-      }
-
-.social-links a {
-    text-decoration: none;
-    color: #4CAF50;
-       }
-
-.social-links a:hover {
-    text-decoration: underline;
-        } 
-footer {
-            background-color: #f8f8f8;
-            padding: 20px;
-            text-align: center;
-            border-top: 1px solid #ccc;
-       }
-.btn {
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-     }
-		
-			
-	 </style>
+	 <link href="css/style.css" rel="stylesheet">
+	
 </head>
      
 <body>
      <header>
 	    <h1> Mon Profil </h1>
 	 </header>
+	 
 	 <div class="profile">
 	    <img src="image/clairio.jpg" alt="Mon image de profil">
 		<h2> ISIDORE  Clairio  NGWEIT </h2>
@@ -88,6 +31,7 @@ footer {
         <br>
            Un développeur en début de carrière peut gagner en moyenne 30-35K et évoluer à 55-65K en fin de carrière.	   		
 	 </div>
+	 
 	 <br>
 	<img src="image/codee.jpg" alt="ligne de code" width="500" height="300" title="La magie derriere le code "></a>
 	 <br>
@@ -103,9 +47,9 @@ footer {
 	 <div class="social-links">
 	    <h3>Me suivre</h3>
 		<ul>
-		   <li><a href="https://www.linkedin.com/feed/">LinkedIn</a></li>
-		   <li><a href="https://www.facebook.com/profile.php?id=100092500570927">Facebook</a></li>
-		   <li><a href="https://vm.tiktok.com/ZMhyFp8oh/" width="200" height="100">TIKTOK</a></li>
+		   <li><a id="one" href="https://www.linkedin.com/feed/">LinkedIn</a></li>
+		   <li><a id="two" href="https://www.facebook.com/profile.php?id=100092500570927">Facebook</a></li>
+		   <li><a id="tree" href="image/cho.jpg" width="200" height="100">TIKTOK</a></li>
 		</UL>
 	 </div>
 	    <button class="btn" type="button" onclick= "window.location.href= 'mailto:clairiongweit@gmail.com';">Cliquez pour m envoyer un Email !!! 
